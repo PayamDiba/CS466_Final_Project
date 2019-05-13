@@ -1,7 +1,7 @@
 # CS466_Final_Project
 This contains an implementation of Convolutional Neural Network for modeling Gene Regulation
 
-Expression_Model.py contains the Convolutional Neural Network model of gene expression. This class takes the enhancer sequence, ground truth expressions and transcription factor profiles as a sequence object (Seq.py). Sequence object is constructed using the three files in the input folder that contain the data used in this project. Also, the sequence object has a method that supports stochastic gradient descent optimization.
+Expression_Model.py contains the Convolutional Neural Network model of gene expression. This class takes the enhancer sequence, ground truth expressions and transcription factor profiles as a sequence object (Seq.py). Sequence object is constructed using the three files in the input folder that contains the data used in this project. Also, the sequence object has a method that supports stochastic gradient descent optimization.
 
 Seq.py: Contains the code for the sequence class.
 
