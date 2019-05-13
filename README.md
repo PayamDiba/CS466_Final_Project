@@ -7,7 +7,7 @@ Seq.py: Contains the code for the sequence class.
 
 main.py: is used to train the model according to the input hyper parameter settings. It takes the following flags:
 
---lr	Learning rate of gradient descent\n
+--lr	Learning rate of gradient descent
 --bs	Batch size used for training
 --ns	Total number of training steps (total number of batches used for training)
 --ds	Dropout rate of the first layer of convolutional filters
